@@ -37,7 +37,7 @@
 .multiSelect > button {
     display: inline-block;
     position: relative;
-    text-align:right;    
+    text-align:left;    
     cursor: pointer;
     border: 1px solid #c6c6c6;    
     padding: 1px 8px 1px 8px;    
@@ -85,13 +85,14 @@
     display: inline-block;
     width: 0;
     height: 0;
-    margin: 0px 0px 1px 14px  !important;    
+    margin: 11px 0px 1px 14px  !important;    
     vertical-align: middle;
     border-top: 4px solid #333;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     border-bottom: 0 dotted; 
     text-align:right;
+    float: :right;
 }
 
 /* the main checkboxes and helper layer */
