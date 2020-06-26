@@ -75,7 +75,8 @@ angular.module('isteven-multi-select', ['ng']).directive('istevenMultiSelect', [
         link: function($scope, element, attrs) {
 
             $scope.backUp = [];
-            $scope.varButtonLabel = '';
+            //$scope.varButtonLabel = '';
+            $scope.varButtonLabel = $sce.trustAsHtml('<span class="caret"></span>');
             $scope.spacingProperty = '';
             $scope.indexProperty = '';
             $scope.orientationH = false;

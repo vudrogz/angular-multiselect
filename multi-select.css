@@ -78,6 +78,7 @@
     padding: 5px 0px 5px 0px; 
     text-align:left;
     folat:left;
+    width: 100%;
 }
 
 /* downward pointing arrow */
@@ -85,14 +86,14 @@
     display: inline-block;
     width: 0;
     height: 0;
-    margin: 11px 0px 1px 14px  !important;    
+    margin: 7px 0px 1px 14px  !important;    
     vertical-align: middle;
     border-top: 4px solid #333;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     border-bottom: 0 dotted; 
     text-align:right;
-    float: :right;
+    float: right;
 }
 
 /* the main checkboxes and helper layer */
