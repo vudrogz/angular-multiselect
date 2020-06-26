@@ -1,10 +1,10 @@
 {
-    "name": "isteven-angular-multiselect",
-    "version": "1.2.2",
+    "name": "angular-multiselect",
+    "version": "1.2.3",
     "description": "A multi select dropdown directive for AngularJS",
     "main": [
-        "isteven-multi-select.js",
-        "isteven-multi-select.css"
+        "multi-select.js",
+        "multi-select.css"
     ],
     "repository": {
         "type": "git",

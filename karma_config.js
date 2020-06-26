@@ -41,7 +41,7 @@ module.exports = function(config) {
         ],
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-        preprocessors: { /*'isteven-multi-select.htm': ['ng-html2js']*/
+        preprocessors: { /*'multi-select.htm': ['ng-html2js']*/
             '**/test/*.js': 'coverage'
          },
 
