@@ -1,0 +1,22 @@
+{
+    "name": "isteven-angular-multiselect",
+    "version": "1.2.1",
+    "main": [
+        "isteven-multi-select.js",
+        "isteven-multi-select.css"
+    ],
+    "ignore": [
+        ".git",
+        ".gitignore",
+        "bower.json",
+        "CHANGELOG.md",
+        "package.json",
+        "README.md",
+        "screenshot.png",
+        "/doc"
+    ],
+    "dependencies": {
+        "angular": "1.5.9",
+        "angular-mocks": "1.5.9"
+    }
+}
