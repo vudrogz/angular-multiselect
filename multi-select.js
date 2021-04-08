@@ -401,7 +401,8 @@ angular.module('isteven-multi-select', ['ng']).directive('istevenMultiSelect', [
                                     }
                                     $scope.filterInputModel.push({
                                         id: value.id,
-                                        name: value.name
+                                        name: value.name,
+                                    		label: value.label
                                     });
                                 });
                                 tickDefault($scope.filteredModel);
@@ -471,7 +472,8 @@ angular.module('isteven-multi-select', ['ng']).directive('istevenMultiSelect', [
                             angular.forEach(data.data.filterRecord, function(value, key) {
                                 $scope.filterInputModel.push({
                                     id: value.id,
-                                    name: value.name
+                                    name: value.name,
+                                    label: value.label
                                 });
                             });
                             // $scope.inputModel = $scope.filterInputModel;
